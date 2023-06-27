@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "363859016177",
+    "project_id": "doemais-6d062",
+    "storage_bucket": "doemais-6d062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363859016177:android:09da0debff9c52245aec50",
+        "android_client_info": {
+          "package_name": "com.br.impacta.doemais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363859016177-df8l31m34e1circ6e6m588tpsf8bac04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-KYYRdm02mT8H6aGUQU3B6TF89rBWNGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363859016177-df8l31m34e1circ6e6m588tpsf8bac04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

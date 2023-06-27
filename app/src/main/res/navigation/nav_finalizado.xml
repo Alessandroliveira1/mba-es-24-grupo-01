@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/LIstaFinalizado2Fragment">
+    <fragment
+        android:id="@+id/LIstaFinalizado2Fragment"
+        android:name="com.br.impacta.doemais.ui.fragment.finalizado.ListaFinalizadoFragment"
+        android:label="fragment_l_ista_finalizado2"
+        tools:layout="@layout/fragment_l_ista_finalizado2" >
+        <action
+            android:id="@+id/action_LIstaFinalizado2Fragment_to_detailDonorFinalizadoFragment"
+            app:destination="@id/detailDonorFinalizadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailDonorFinalizadoFragment"
+        android:name="com.br.impacta.doemais.ui.fragment.finalizado.DetailDonorFinalizadoFragment"
+        android:label="fragment_detail_donor_finalizado"
+        tools:layout="@layout/fragment_detail_donor_finalizado" />
+</navigation>

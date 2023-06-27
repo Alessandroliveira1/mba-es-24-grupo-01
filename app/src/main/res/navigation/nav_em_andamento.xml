@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/listaEmAndamentoFragment">
+    <fragment
+        android:id="@+id/listaEmAndamentoFragment"
+        android:name="com.br.impacta.doemais.ui.fragment.andamento.ListaEmAndamentoFragment"
+        android:label="fragment_lista_em_andamento"
+        tools:layout="@layout/fragment_lista_em_andamento" >
+        <action
+            android:id="@+id/action_listaEmAndamentoFragment_to_detailEmAndamentoFragment"
+            app:destination="@id/detailEmAndamentoFragment" />
+        <action
+            android:id="@+id/action_listaEmAndamentoFragment_to_detailDonorEmAndamentoFragment"
+            app:destination="@id/detailDonorEmAndamentoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailEmAndamentoFragment"
+        android:name="com.br.impacta.doemais.ui.fragment.andamento.DetailEmAndamentoFragment"
+        android:label="fragment_detail_em_andamento"
+        tools:layout="@layout/fragment_detail_em_andamento" >
+        <action
+            android:id="@+id/action_detailEmAndamentoFragment_to_listaEmAndamentoFragment"
+            app:destination="@id/listaEmAndamentoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailDonorEmAndamentoFragment"
+        android:name="com.br.impacta.doemais.ui.fragment.andamento.DetailDonorEmAndamentoFragment"
+        android:label="fragment_detail_donor_em_andamento"
+        tools:layout="@layout/fragment_detail_donor_em_andamento" />
+</navigation>

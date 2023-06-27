@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/locationFragment">
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.br.impacta.doemais.ui.location.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" >
+        <action
+            android:id="@+id/action_locationFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.br.impacta.doemais.ui.fragment.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+</navigation>
